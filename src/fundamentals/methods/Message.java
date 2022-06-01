@@ -6,11 +6,9 @@ public class Message {
 
         if (hora >= 1 || hora <= 12){
             messageBomdia();
-            break;
         }
         if (hora > 12 && hora <= 17){
             messageBoaTarde();
-            break;
         }
         if (hora > 17 && hora <= 24){
             messageBoaNoite();
