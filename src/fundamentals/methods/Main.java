@@ -15,6 +15,6 @@ public class Main {
         System.out.println("Message");
         Message.findMessage(9);
         Message.findMessage(14);
-        Message.findMessage(1);
+        Message.findMessage(25);
     }
 }

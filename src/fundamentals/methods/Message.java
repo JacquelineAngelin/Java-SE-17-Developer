@@ -4,18 +4,14 @@ public class Message {
 
     public static void findMessage(int hora){
 
-        if (hora >= 1 || hora <= 12){
+        if (hora >= 1 || hora <= 12)
             messageBomdia();
-        }
-        if (hora > 12 && hora <= 17){
+        if (hora > 12 && hora <= 17)
             messageBoaTarde();
-        }
-        if (hora > 17 && hora <= 24){
+        if (hora > 17 && hora <= 24)
             messageBoaNoite();
-        }
-        else {
-            System.out.println("Hora invalida");
-        }
+        if (hora < 1 || hora > 24)
+        System.out.println("Hora invalida");
     }
 
     public static void messageBomdia(){
