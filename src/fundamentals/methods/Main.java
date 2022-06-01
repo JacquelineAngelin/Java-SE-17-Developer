@@ -12,9 +12,9 @@ public class Main {
         Calculator.divisao(5, 2.5);
 
         //Message
-//        System.out.println("Message");
-//        Message.findMessage(9);
-//        Message.findMessage(14);
-//        Message.findMessage(1);
+        System.out.println("Message");
+        Message.findMessage(9);
+        Message.findMessage(14);
+        Message.findMessage(1);
     }
 }
