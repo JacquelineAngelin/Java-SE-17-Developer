@@ -16,5 +16,11 @@ public class Main {
         Message.findMessage(9);
         Message.findMessage(17);
         Message.findMessage(21);
+
+        //Financial
+        System.out.println("Financial-Financiamento");
+        Financial.calculatorValue(1000, Financial.getDuasParcelas());
+        Financial.calculatorValue(1000, Financial.getTresParcelas());
+        Financial.calculatorValue(1000, 5);
     }
 }
